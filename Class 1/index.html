@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menubar{
+            background-color: #bc7ae0;
+            border-radius: 10px;
+        }
+        .menubar > ul li{
+            list-style: none;
+            margin-right: 25px;
+            display: inline-block;
+            padding: 15px 0px
+        } 
+        .menubar  ul li a{
+            text-decoration: none;
+            color: white;
+            margin: 0px 20px;
+        }
+        .table{
+            font-family: 'PT Sans', sans-serif;
+            width: 800px;
+            text-align: left;
+            margin-top: 100px;
+            margin: auto;
+            border-radius: 10px;
+            overflow: hidden;
+            border-collapse: collapse;
+
+            
+          
+
+        }
+
+        .table thead {
+            border-radius: 10px 10px 0 0;
+            color: #fff;
+        }
+        .table thead th{
+            background-color:#bc7ae0 ;
+            padding: 15px 20px;
+        }
+        .table tbody td{
+            padding: 12px 20px;
+            color: grey;
+            display:
+        }
+
+
+        .table tbody tr{
+            border-right: 1px solid #eee;
+            border-left: 1px solid #eee;
+        }
+
+        .table tbody tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
+        .table tbody tr:last-child {
+            border-bottom: 1px solid #eee;
+            border-radius: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+
+        </ul>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="headt">ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Utkarshini</td>
+                <td>Arora</td>
+                <td>23</td>
+                <td>bangalore</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jesse</td>
+                <td>Flores</td>
+                <td>23</td>
+                <td>Orlando</td>
+            
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Carol</td>
+                <td>Bailey</td>
+                <td>26</td>
+                <td>Nevada</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
