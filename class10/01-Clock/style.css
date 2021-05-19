@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+body {
+  background-color: #fce4ec;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 100px;
+}
+
+.clock {
+  font-size: 50px;
+}
