@@ -202,3 +202,30 @@ footer.second p{
 /*---media start----*/
 
 
+@media all and (max-width: 768px){
+
+  h2{
+    /* font size and change the color */
+  }
+
+  /* h3, p */
+
+  #logo{
+    /*  make the size smaller reduce margin, padding etc */
+  }
+
+  /* Hide the navbar */
+  /* Move inside list elements, display them on hover */
+  /* List element will take 100% width, give padding, margin */
+  /* one third section = occupy 100% width */
+
+  /* one fourth = occupy 100% width */
+
+  /* Images */
+
+  /* only mention height or width and the other one, set it to auto */
+
+  /* Change background color for different devices */
+}
+
+

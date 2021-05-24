@@ -1,0 +1,70 @@
+/* smartphones (potrait and landscape) */
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+    /* styles go here */
+}
+/* smartphones (potrait) */
+@media only screen 
+and(min-width: 320px){
+    /* styles go here  */
+}
+/* smartphones (landscape) */
+@media only screen 
+and(max-width: 480px){
+    /* styles go here  */
+}
+
+/* ipads (potrait and landscape) */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+{
+   /* styles go here  */
+}
+
+/* ipads (potrait ) */
+@media only screen
+and (min-width: 768px)
+and (orientation: portrait)
+{
+   /* styles go here  */
+}
+/* ipads (landscape) */
+
+@media only screen
+and (min-width: 1024px)
+and (orientation: landscape)
+{
+   /* styles go here  */
+}
+
+/* desktop and laptops */
+
+@media only screen 
+and (min-width: 1224px)
+and(max-width: 1280px)
+{
+    /* styles go here */
+}
+
+
+/* large screen  */
+@media only screen
+and(min-width: 1824px){
+    /* styles go here  */
+}
+
+
+/* iphone (portrait and landscape) */
+
+@media only screen
+and(min-device-width: 320px)
+and(max-device-width: 568px){
+    /* styles go here */
+}
+
+
+

@@ -158,3 +158,36 @@ li > a:only-child:after { content: ''; }
 /* Media Queries
 --------------------------------------------- */
 
+
+@media all and (max-width: 768px) {
+
+
+	#logo{
+		display: block;
+		width: 100%
+	}
+
+	.toggle{
+		display: block
+	}
+
+	/* display dropdown will be visible when we click on the parent label  */
+
+	/* select the dropdoen menu  */
+
+	/* all list items inside ul/ol should be taking 100% width add some padding*/
+	/* change the bg color inside the toggle menu  */
+
+	/* not checked, click */
+	/* hover event */
+	/* hide item menus when hovering anywhere else, display: block */
+
+}
+
+
+@media all and (max-width: 330px){
+	/*  lesser width than before  */
+}
+
+
+
