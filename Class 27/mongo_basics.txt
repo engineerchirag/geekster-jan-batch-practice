@@ -1,0 +1,48 @@
+
+db.cities.insertMany([
+  {
+      "address": {
+          "coord": [
+              -73.867789,
+              40.56789
+          ],
+          "pincode": 10567
+      },
+      "name": "New York",
+      "type": "rural"
+  },
+  {
+  "address": {
+      "coord": [
+          -72.867789,
+          41.56789
+      ],
+      "pincode": 10567
+  },
+  "name": "California",
+  "type": "suburban"
+},
+{
+  "address": {
+      "coord": [
+          -72.867789,
+          41.58889
+      ],
+      "pincode": 10967
+  },
+  "name": "Italy",
+  "type": "suburban"
+}
+])
+
+1. display name and type of city //db.cities.find({},{"name":1, "type":1})
+2. display only pincode //db.cities.find({},{"address":{"pincode":1}, "_id":0})
+3. display urban cities 
+4. display only pincode of urban cities
+5. $ operators - > equality, set(update),
+6. age> 12 ($gt)
+7. age < 14
+8. get first three city names whose pincode is 10567 
+9. score of city = age_of_city%5, get the age of city , divide it by 5, return the city name (exists, nin, )
+10. get all city names whose coord field value is double
+BSON - > double, string, object, array, password_in_binary, undefined(depreacted-guess) //$type
